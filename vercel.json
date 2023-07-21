@@ -6,11 +6,5 @@
             "src": "./config/server/index.js",
             "use": "@vercel/node"
         }
-    ],
-    "route": [
-        {
-            "src": "/(.*)",
-            "dest": "./config/server/index.js"
-        }
     ]
 }
