@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "Komplett_portal",
+    "builds": [
+        {
+            "src": "./config/server/index.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "route": [
+        {
+            "src": "/(.*)",
+            "dest": "./config/server/index.js"
+        }
+    ]
+}
